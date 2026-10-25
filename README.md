@@ -1,24 +1,68 @@
-# Cooperativa Ciberfuturo
+# SYNDEV — Cooperativa tecnológica
 
-Hazme una página web para una cooperativa la cual servirá para realizar consultas y hacer software's, tengo estás imagene con los colores y logo y nombre para que lo hagas!! la onda será retrofuturistas. Para que los efectos los hagas acorde a esta tematica!!!!! está inspirado en cybersin
+**Espacios que impulsan ideas.**
 
-This project was built with [Lovable](https://lovable.dev).
+Somos una cooperativa de trabajo tecnológico hecha en Chile. Acompañamos a organizaciones a resolver problemas reales con consultoría, software a medida y herramientas de datos. Trabajamos de forma horizontal, transparente y colaborativa: la tecnología tiene que estar al servicio de las personas.
 
-## Build with Lovable
+La identidad visual de SYNDEV mira al futuro desde Chile: una estética retrofuturista inspirada en **Cybersyn** y en la idea de usar la tecnología para coordinar, aprender y decidir en conjunto.
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/ebe9b0ba-d790-4464-9936-52b55ce4d7d9).
+## Qué hacemos
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+- **Consultorías tecnológicas:** diagnóstico, arquitectura y estrategia digital.
+- **Desarrollo de software:** sitios, plataformas, aplicaciones e integraciones a medida.
+- **Sistemas de datos:** tableros, automatización y flujos de información.
+- **Acompañamiento:** talleres, soporte, documentación y mantención.
 
-## Development
+## Cómo trabajamos
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Escuchamos a las personas que usarán la solución, modelamos el problema, construimos en entregas cortas y mejoramos con retroalimentación. Nos guían la autogestión, la transparencia, la soberanía tecnológica y el impacto comunitario.
+
+## La página
+
+El sitio presenta la cooperativa y sus servicios en estas secciones:
+
+- **Inicio:** identidad, principios y acceso a los servicios.
+- **Servicios:** consultoría, desarrollo, datos y acompañamiento.
+- **Método:** nuestro ciclo de trabajo y valores cooperativos.
+- **Inspiración:** la conexión entre Cybersyn y SYNDEV.
+- **Contacto:** formulario para compartir una idea o consulta.
+
+> El formulario de contacto actualmente muestra una confirmación en pantalla; todavía no envía los datos a un correo o servicio externo.
+
+## Desarrollo local
+
+Necesitas [Bun](https://bun.sh/) instalado. Desde la carpeta del proyecto:
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
+bun install
+bun run dev
 ```
+
+Vite mostrará la dirección local para abrir el sitio. Para generar una compilación de producción o previsualizarla:
+
+```sh
+bun run build
+bun run preview
+```
+
+## Tecnologías
+
+- React y TypeScript
+- TanStack Start y TanStack Router
+- Vite
+- Tailwind CSS
+- Bun
+
+## Estructura
+
+```text
+src/
+├── assets/       # Imágenes del sitio
+├── components/   # Componentes compartidos e interfaz
+├── routes/       # Páginas y rutas
+└── styles.css    # Estilos globales y tema visual
+```
+
+---
+
+**SYNDEV** · Cooperativa de trabajo tecnológico · Hecho en Chile.
